@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">RoomShoppingList</string>
+
+    <string name="add_item">Add Item</string>
+    <string name="add_item_price">Add Item Price</string>
+
+    <string name="hint_item">Add Shopping Item</string>
+    <string name="hint_item_price">Add Item Price</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">Item not saved because it is empty.</string>
+
+    <string name="edt_enter_name">Enter Item Name</string>
+    <string name="edt_enter_price">Enter Item Price</string>
+    <string name="edt_enter_quantity">Enter Item Quantity</string>
+
+</resources>

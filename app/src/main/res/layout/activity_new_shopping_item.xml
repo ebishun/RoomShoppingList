@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:padding="15dp"
+            android:background="@drawable/edittext_border"
+            android:id="@+id/edt_shopping_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="20dp"
+            android:fontFamily="sans-serif-light"
+            android:hint="@string/hint_item"
+            android:inputType="textAutoComplete"
+            android:layout_margin="10dp"
+            android:textSize="18sp" />
+
+        <EditText
+            android:padding="15dp"
+            android:background="@drawable/edittext_border"
+            android:id="@+id/edt_shopping_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="20dp"
+            android:fontFamily="sans-serif-light"
+            android:hint="@string/hint_item_price"
+            android:inputType="textAutoComplete"
+            android:layout_margin="10dp"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_button_add"
+            android:text="@string/button_save"
+            android:layout_margin="10dp"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+</layout>
